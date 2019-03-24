@@ -15,7 +15,6 @@ module.exports = {
     // fix for https://github.com/webpack/webpack/issues/6525
     globalObject: `(typeof self !== 'undefined' ? self : this)`
     },
-  mode: 'development',
   optimization: {
     usedExports: true
   }
