@@ -1,0 +1,15 @@
+{
+  "name": "three-shaking-webpack",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "main": "index.js", 
+  "author": "Apidcloud <luisapidcloud@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
