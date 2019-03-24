@@ -4,7 +4,7 @@ module.exports = {
   mode: 'production',
   entry: {
     core: './src/index.js',
-    consumer: './another-package/index.js'
+    consumer: './consumer/index.js'
   },
   output: {
     filename: '[name].js',
