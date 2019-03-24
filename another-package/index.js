@@ -1,0 +1,1 @@
+export {consumerFn} from "./src/someConsumer";

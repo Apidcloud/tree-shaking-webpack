@@ -1,11 +1,14 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    core: './src/index.js',
+    consumer: './another-package/index.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    library: "TS",
+    library: ['TS', '[name]'],
     // export itself to UMD format
     libraryTarget: "umd",
     umdNamedDefine: true,

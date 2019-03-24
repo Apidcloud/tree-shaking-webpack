@@ -1,11 +1,3 @@
-.opt-in
-.opt-out
-
-dist
-
-# builds and typings
-packages/*/dist
-
 # Logs
 logs
 *.log

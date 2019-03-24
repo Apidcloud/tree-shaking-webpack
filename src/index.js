@@ -1,2 +1,2 @@
 export {cube} from './math.js';
-export * from './utils.js';
+export {unusedFn} from './utils.js';
