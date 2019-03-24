@@ -10,6 +10,6 @@
     "webpack-cli": "3.3.0"
   },
   "scripts": {
-    "build": "webpack --optimize-minimize --display-used-exports"
+    "build": "webpack --display-used-exports"
   }
 }
