@@ -1,5 +1,5 @@
 {
-  "name": "three-shaking-webpack",
+  "name": "tree-shaking-webpack",
   "sideEffects": false,
   "version": "1.0.0",
   "main": "index.js", 
