@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: {
     core: './src/index.js',
     consumer: './another-package/index.js'
@@ -14,8 +15,5 @@ module.exports = {
     umdNamedDefine: true,
     // fix for https://github.com/webpack/webpack/issues/6525
     globalObject: `(typeof self !== 'undefined' ? self : this)`
-    },
-  optimization: {
-    usedExports: true
-  }
+    }
 };
