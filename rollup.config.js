@@ -13,8 +13,8 @@ export default [
             consumer: './consumer/index.js'
         },
 		output: [
-			{ dir: 'dist/cjs', format: 'cjs' },
-			{ dir: 'dist/esm', format: 'es' }
+			{ dir: 'dist/cjs', format: 'cjs', sourcemap: true },
+			{ dir: 'dist/esm', format: 'es', sourcemap: true }
 		]
 	}
 ];

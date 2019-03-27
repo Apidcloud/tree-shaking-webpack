@@ -7,3 +7,4 @@ function consumerFn(){
 }
 
 export { consumerFn };
+//# sourceMappingURL=consumer.js.map

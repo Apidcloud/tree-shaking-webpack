@@ -11,3 +11,4 @@ function consumerFn(){
 }
 
 exports.consumerFn = consumerFn;
+//# sourceMappingURL=consumer.js.map
