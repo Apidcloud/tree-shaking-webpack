@@ -5,8 +5,10 @@
   "main": "index.js",
   "author": "Apidcloud <luisapidcloud@hotmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "rollup": "1.7.3"
+  },
   "scripts": {
-    "build": ""
+    "build": "rollup -c"
   }
 }
